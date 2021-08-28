@@ -1,0 +1,23 @@
+{
+   "type": "postgres",
+   "host": "john.db.elephantsql.com",
+   "port": 5432,
+   "username": "mtttlycz",
+   "password": "9qXmfNq5LqckCdkaNptH3NiIeFhzoE1G",
+   "database": "mtttlycz",
+   "synchronize": true,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
